@@ -1,0 +1,69 @@
+# Task 2: Data Cleaning and Exploratory Data Analysis (EDA)
+
+## 📌 Project Overview
+This project is part of the **SkillCraft Technology Data Science Internship**.  
+The objective of Task 2 is to perform **data cleaning and exploratory data analysis (EDA)** on a real-world dataset to understand relationships between variables and identify patterns and trends in the data.
+
+---
+
+## 📂 Dataset
+- **Dataset Name:** abalone.csv  
+- **Source:** UCI Machine Learning Repository / Kaggle  
+- **Description:**  
+  The dataset contains information about abalones (marine shellfish), including physical measurements and age indicators. The target variable **Rings** is used to estimate the age of each abalone.
+
+---
+
+## 🛠️ Tools & Technologies Used
+- Python  
+- Jupyter Notebook  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 📊 Task Objectives
+- Load and inspect the dataset  
+- Perform data cleaning (handling missing values and renaming columns)  
+- Conduct exploratory data analysis (EDA)  
+- Visualize relationships between variables  
+- Identify patterns and trends affecting abalone age  
+
+---
+
+## 🔍 Exploratory Data Analysis Performed
+- Examined dataset structure and summary statistics  
+- Handled missing values and verified data types  
+- Analyzed the distribution of abalones by sex  
+- Studied relationships between age (**Rings**) and:
+  - Sex  
+  - Physical measurements (Length, Diameter, Height)  
+  - Weight features (Whole weight, Shucked weight, Viscera weight, Shell weight)  
+- Visualized data using count plots, histograms, box plots, scatter plots, and correlation heatmaps  
+
+---
+
+## 📈 Key Insights
+- Most abalones have between **8 and 12 rings**  
+- Physical size and weight features generally increase with age  
+- Strong correlations exist between weight-related measurements  
+- Sex has a minor influence on age compared to size-related features  
+
+---
+
+## 📁 Files in This Repository
+- `Task02_EDA_Abalone.ipynb` – Jupyter Notebook containing data cleaning and EDA  
+- `abalone.csv` – Dataset used for analysis  
+- `README.md` – Project documentation  
+
+---
+
+## 🚀 Conclusion
+This task strengthened my understanding of **data cleaning, exploratory data analysis, and data visualization** techniques using Python.
+
+---
+
+## 🙏 Acknowledgment
+Thanks to **SkillCraft Technology** for providing this internship opportunity.
